@@ -3,7 +3,7 @@ import logging
 import os
 
 
-def ezlog(
+def get_logger(
     level=logging.DEBUG,
     log_format="%(asctime)s [%(name)s] [%(levelname)s] %(message)s",
     stream_handler=True,
