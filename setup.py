@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="ezlog",
-    version="0.1.0",
+    version="0.2.0",
     packages=find_packages(),
     description="A simple logging utility.",
     long_description=open("README.md").read(),
